@@ -1,0 +1,49 @@
+@media (min-width: 240px) and (max-width: 767px) {
+  .no-padding {
+    padding: 0; } }
+
+.no-padding-web {
+  padding: 0 !important; }
+
+.marl_mob {
+  margin: 0; }
+
+@font-face {
+  font-family: "Avenir LT Pro 35 Light";
+  src: url("../fonts/Avenir_LT_Pro_35_Light.eot");
+  /* IE9*/
+  src: url("../fonts/Avenir_LT_Pro_35_Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Avenir_LT_Pro_35_Light.woff2") format("woff2"), url("../fonts/Avenir_LT_Pro_35_Light.woff") format("woff"), url("../fonts/Avenir_LT_Pro_35_Light.ttf") format("truetype"), url("../fonts/Avenir_LT_Pro_35_Light.svg#Avenir LT Pro 35 Light") format("svg");
+  /* iOS 4.1- */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: "Publico Headline Web Roman Regular";
+  src: url("../fonts/Publico_Headline_Web_Roman_Regular.eot");
+  /* IE9*/
+  src: url("../fonts/Publico_Headline_Web_Roman_Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Publico_Headline_Web_Roman_Regular.woff2") format("woff2"), url("../fonts/Publico_Headline_Web_Roman_Regular.woff") format("woff"), url("../fonts/Publico_Headline_Web_Roman_Regular.ttf") format("truetype"), url("../fonts/Publico_Headline_Web_Roman_Regular.svg#Publico Headline Web Roman Regular") format("svg");
+  /* iOS 4.1- */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+html {
+  font-size: 16px;
+  font-family: 'Avenir LT Pro 35 Light', sans-serif; }
+  @media (min-width: 1400px) and (max-width: 1600px) {
+    html {
+      font-size: 16px; } }
+  @media (min-width: 1601px) and (max-width: 2300px) {
+    html {
+      font-size: 16px; } }
+
+body {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #170303;
+  line-height: 22px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden !important;
+  font-family: 'Avenir LT Pro 35 Light', sans-serif; }
+
+/*# sourceMappingURL=ref.css.map */
