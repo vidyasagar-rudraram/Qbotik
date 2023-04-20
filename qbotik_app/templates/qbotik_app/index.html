@@ -1,0 +1,165 @@
+{% extends 'qbotik_app/base.html' %}
+{% load static %}
+{% block content %}
+    <div>
+      <div class="first_fold">
+        <section class="banner">
+          <div class="bg-video-wrap">
+            <video
+              src="{% static 'images/home/banner_video.mp4' %}"
+              loop
+              muted
+              autoplay
+            ></video>
+            <div class="overlay">
+              <div class="row marl justify-content-center">
+                <div class="col-lg-9">
+                  <p class="text-center banner-text">
+                    Professional <a href="#">Recruitment</a> Specialists
+                    Supplying Highly <a href="#">Talented</a> to world leading
+                    companies
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="image-unmask">
+        <svg id="svg">
+          <defs>
+            <mask id="mask">
+              <rect width="100%" height="100%" fill="white"></rect>
+              <circle
+                id="circle"
+                cx="50%"
+                cy="50%"
+                r="60"
+                fill="black"
+              ></circle>
+            </mask>
+          </defs>
+          <rect id="whiteLayer" width="100%" height="100%" fill="white"></rect>
+          <rect
+            width="100%"
+            height="100%"
+            fill="black"
+            mask="url(#mask)"
+          ></rect>
+        </svg>
+      </section>
+      <section class="digital_tech">
+        <div class="container">
+          <div class="row marl dig_tech_content">
+            <div class="col">
+              <p class="heading">Digital IT and Technology</p>
+              <ul class="">
+                <li>
+                  <span><img src="{% static 'images/home/monitor.png' %}" alt="icon" /></span>
+                  <span class="text">Digital Recruitment</span>
+                </li>
+                <li>
+                  <span
+                    ><img src="{% static 'images/home/office-building.png' %}" alt="icon"
+                  /></span>
+                  <span class="text">Corporate Recruitment</span>
+                </li>
+                <li>
+                  <span><img src="{% static 'images/home/team.png' %}" alt="icon" /></span>
+                  <span class="text">Energy Recruitment</span>
+                </li>
+                <li>
+                  <span><img src="{% static 'images/home/money.png' %}" alt="icon" /></span>
+                  <span class="text">Payrolling</span>
+                </li>
+                <li>
+                  <span
+                    ><img src="{% static 'images/home/outsource.png' %}" alt="icon"
+                  /></span>
+                  <span class="text">MSP & RPO</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <img
+                class="dig_tech_img"
+                src="{% static 'images/home/Layer 69.png' %}"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="content">
+        <div class="inner">
+          <h1>Some Content Here</h1>
+          <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast
+            quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon
+            starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig
+            carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker
+            Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot
+            yardarm spyglass sheet transom heave to. Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway.
+            Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters.
+            Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
+          </p>
+          <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast
+            quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon
+            starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig
+            carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker
+            Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot
+            yardarm spyglass sheet transom heave to. Trysail Sail ho Corsair red ensign hulk smartly boom jib rum
+            gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest
+            rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
+          </p>
+        </div>
+      </section>
+      <section class="content">
+        <div class="inner">
+          <h1>Some Content Here</h1>
+          <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast
+            quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon
+            starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig
+            carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker
+            Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot
+            yardarm spyglass sheet transom heave to. Trysail Sail ho Corsair red ensign hulk smartly boom jib rum
+            gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest
+            rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
+          </p>
+          <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast
+            quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon
+            starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig
+            carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker
+            Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot
+            yardarm spyglass sheet transom heave to. Trysail Sail ho Corsair red ensign hulk smartly boom jib rum
+            gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest
+            rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
+          </p>
+        </div>
+      </section>
+      <section class="unique_contract">
+        <div class="container">
+          <div class="row marl justify-content-center">
+            <div class="col-lg-6">
+              <p class="text-center">
+                Unique Contractor Database and Assignments Covering
+              </p>
+              <div class="designation typing-text text-holder anim-hdln">
+                <p class="line-1 anim-typewriter">
+                  Global Digital Marketing Manager : <span class="bg">Technology Solutions</span>
+                </p>
+              </div>
+              <a href="#" class="find_more"
+                >Find out more
+                <img src="{% static 'images/home/Layer 70.png' %}" class="ms-4" alt="icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+{% endblock content %}
+{% block extra_script %}
+    <!-- Main js -->
+    <script src="{% static 'js/main_animations.js' %}"></script>
+{% endblock extra_script %}
